@@ -1,0 +1,9 @@
+// Hint files help the Visual Studio IDE interpret Visual C++ identifiers
+// such as names of functions and macros.
+// For more information see https://go.microsoft.com/fwlink/?linkid=865984
+#define RECEIVE_FULL_COORDS
+#define SEND_FULL_COORDS
+#define BOARD _board.get_board()
+#define BOARD_SIZE
+#define PAWN p->get_char() == 'p' || p->get_char() == 'P'
+#define KING p->get_char() == 'k' || p->get_char() == 'K'
