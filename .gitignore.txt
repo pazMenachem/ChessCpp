@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows,c++,visualstudio
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,c++,visualstudio
+# Created by https://www.toptal.com/developers/gitignore/api/c++,visualstudio,visualstudiocode,windows
+# Edit at https://www.toptal.com/developers/gitignore?templates=c++,visualstudio,visualstudiocode,windows
 
 ### C++ ###
 # Prerequisites
@@ -34,6 +34,25 @@
 *.exe
 *.out
 *.app
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -437,15 +456,9 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # VS Code files for those working on multiple tools
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 *.code-workspace
 
 # Local History for Visual Studio Code
-.history/
 
 # Windows Installer files from build outputs
 
@@ -455,4 +468,4 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,c++,visualstudio
+# End of https://www.toptal.com/developers/gitignore/api/c++,visualstudio,visualstudiocode,windows
